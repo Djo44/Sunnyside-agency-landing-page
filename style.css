@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/**************** Header *****************/
+
+header {
+  background-image: url("../images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+  padding: 2rem;
+  background-color: #3DBEFF;
+  max-width: 100%;
+}
+
+
+.navbar {
+  box-shadow: none;
+
+}
+
+.hamburger {
+  display: none;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+
+}
+
+
+
+.navbar ul li a {
+  color: #fff;
+  font-family: 'Barlow',
+    serif;
+  font-size: 18px;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul li a:hover {
+  color: #fff;
+  font-family: 'Fraunces',
+    serif;
+  font-size: 17px;
+}
+
+.logo img {
+  height: 2.5rem;
+}
+
+.navbar ul li:hover {
+
+  background-color: #6FCFFF;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: 'Fraunces',
+    serif;
+
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.hero h1 {
+  color: #fff;
+  font-family: 'Fraunces',
+    serif;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 6rem;
+  overflow-y: hidden;
+  letter-spacing: 10px;
+  font-weight: 900;
+  margin-bottom: 5rem;
+}
+
+/********************** End of Header ************************/
+
+
+/* Section one */
+
+.section-one {
+  height: auto;
+  overflow-y: hidden;
+
+}
+
+.right-1 {
+  height: 70vh;
+  background-image: url("../images/desktop/image-transform.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.left-1 {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  overflow-y: hidden;
+  padding: 8rem;
+}
+
+.text-container h1,
+.text-container h6,
+.text-container h5 {
+  font-family: 'Fraunces',
+    serif;
+  padding: 0.7rem
+}
+
+.text-container h5 {
+  letter-spacing: 0.7px;
+  font-family: "Barlow";
+  line-height: 1.6;
+  color: hsl(232, 10%, 55%);
+
+}
+
+.text-container h6 {
+  letter-spacing: 1px;
+
+}
+
+.text-container h6:hover {
+  cursor: pointer;
+  text-decoration: solid underline hsl(51, 100%, 49%) 10px;
+
+
+}
+
+/* End of section one */
+
+
+
+/* section two */
+
+.section-two {
+
+  overflow-y: hidden;
+
+}
+
+.section-two .text-container h6:hover {
+  cursor: pointer;
+  text-decoration: solid underline hsl(7, 99%, 70%) 10px;
+
+
+}
+
+.right-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-2 {
+  height: 70vh;
+  background-image: url("../images/desktop/image-stand-out.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+}
+
+/******************************** end section two */
+
+
+
+
+
+
+/******************************** Section three */
+
+.left-3 {
+  height: 70vh;
+  background-image: url("../images/desktop/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+.left-3 .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  top: 18rem;
+
+}
+
+.left-3 h2 {
+  color: hsl(167, 40%, 24%);
+  font-family: "Fraunces";
+  margin-bottom: 2rem;
+  overflow-y: hidden;
+}
+
+.left-3 h5 {
+  letter-spacing: 1;
+  line-height: 1.4;
+  font-size: 16px;
+  color: hsl(167, 40%, 24%);
+  font-family: "Barlow";
+}
+
+
+.right-3 {
+  height: 70vh;
+  background-image: url("../images/desktop/image-photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+.right-3 .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  top: 18rem;
+
+}
+
+.right-3 h2 {
+  color: hsl(198, 62%, 26%);
+  font-family: "Fraunces";
+  margin-bottom: 2rem;
+  overflow-y: hidden;
+}
+
+.right-3 h5 {
+  letter-spacing: 1;
+  line-height: 1.4;
+  font-size: 16px;
+  color: hsl(198, 62%, 26%);
+  font-family: "Barlow";
+}
+
+
+/* END Section three ****************************************************************/
+
+/* Testimomials */
+
+.testimonial-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonial-item img {
+  border-radius: 50%;
+  height: 100px;
+  margin: 4rem 0;
+}
+
+.testimonials h4 {
+
+  padding-top: 11rem;
+  font-family: "Fraunces";
+  color: hsl(210, 4%, 67%);
+  letter-spacing: 4px;
+}
+
+.testimonials h6 {
+  font-size: 16px;
+  line-height: 2rem;
+  font-family: "Barlow";
+  color: #5E6063;
+  letter-spacing: 1px;
+}
+
+
+.testimonials h5 {
+  color: black;
+  font-weight: bold;
+  font-family: "Fraunces";
+}
+
+.testimonials small {
+  color: hsl(210, 4%, 67%);
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Barlow";
+}
+
+.name-container {
+  padding: 4rem 0;
+}
+
+/* End of Testimomials */
+
+
+/* section four */
+
+.section-four {
+  padding-top: 2rem;
+  height: 50vh;
+  overflow-y: hidden;
+
+}
+
+.pic-1 {
+  height: 50vh;
+  background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+.pic-2 {
+  height: 50vh;
+  background-image: url("../images/desktop/image-gallery-orange.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+.pic-3 {
+  height: 50vh;
+  background-image: url("../images/desktop/image-gallery-cone.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+.pic-4 {
+  height: 50vh;
+  background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+
+
+/*end of section four */
+
+
+/* footer */
+footer {
+  background-color: #90D4C5;
+  color: hsl(167, 40%, 24%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+
+}
+
+footer img {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(5%) saturate(5357%) hue-rotate(118deg) brightness(95%) contrast(71%);
+}
+
+.footer-links ul {
+  display: flex;
+  padding: 2rem;
+}
+
+.footer-links ul li a {
+  padding: 0 2rem;
+  color: hsl(167, 40%, 24%);
+  font-family: "Barlow";
+  font-size: 19px;
+}
+
+.footer-links ul li a:hover {
+  color: white;
+
+}
+
+.footer-social ul {
+  display: flex;
+  padding: 2rem;
+}
+
+.footer-social ul li a {
+  padding: 0 1rem;
+  color: hsl(167, 40%, 24%);
+  font-family: "Barlow";
+  font-size: 25px;
+  margin-top: 1rem;
+}
+
+.footer-social ul li a:hover {
+  color: white;
+}
+
+/* end of footer */
+
+
+/* responsive */
+
+@media only screen and (max-width: 750px) {
+  .hamburger {
+
+    cursor: pointer;
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+    align-self: center;
+    position: fixed;
+    left: 85%;
+  }
+
+  .navbar {
+
+    overflow-y: hidden;
+    display: flex;
+
+  }
+
+  .navbar ul li a {
+    color: hsl(232, 10%, 55%);
+  }
+
+  .navbar ul li a:hover {
+    color: black;
+    font-family: 'Fraunces',
+      serif;
+
+  }
+
+  .navbar ul li:hover {
+
+    background-color: hsl(51, 100%, 49%);
+
+  }
+
+
+  .logo {
+    padding: 0;
+    margin: 0;
+    align-self: center;
+
+  }
+
+  .logo img {
+    height: 1.5rem;
+  }
+
+
+  .navbar ul {
+    height: 300px;
+    width: 85%;
+    margin: 0 auto;
+    display: none;
+    background: white;
+    flex-direction: column;
+    position: fixed;
+    top: 15%;
+    z-index: 2;
+    padding-left: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+
+  }
+
+  header {
+
+    background-image: url("../images/mobile/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+  }
+
+  .hero h1 {
+    letter-spacing: 7px;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    font-size: 35px;
+  }
+
+
+
+
+  /* section one */
+
+
+  .section-one {
+    height: 90vh;
+  }
+
+  .section-one .row {
+
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .left-1 {
+    height: 50vh;
+
+
+  }
+
+  .right-1 {
+    height: 40vh;
+    background-image: url("../images/mobile/image-transform.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .text-container {
+    overflow-y: hidden;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .text-container h5 {
+    letter-spacing: 0;
+    font-family: "Barlow";
+    line-height: 1.6;
+    color: hsl(232, 10%, 55%);
+    font-size: 18px;
+  }
+
+  .text-container h1 {
+
+    font-size: 32px;
+  }
+
+  /* end of section one*/
+
+
+  /* section two */
+
+  .section-two {
+    height: 100vh;
+  }
+
+  .section-two .row {
+
+    display: flex;
+
+
+  }
+
+  .right-2 {
+    height: 50vh;
+
+
+  }
+
+
+
+
+  .left-2 {
+    height: 50vh;
+    background-image: url("../images/mobile/image-stand-out.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /*end section two */
+
+
+
+  /* section three */
+
+
+  .left-3 {
+    height: 70vh;
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+  }
+
+  .left-3 .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 20rem;
+
+  }
+
+  .left-3 h2 {
+    color: hsl(167, 40%, 24%);
+    font-family: "Fraunces";
+    margin-bottom: 2rem;
+    overflow-y: hidden;
+  }
+
+  .left-3 h5 {
+    letter-spacing: 1;
+    line-height: 1.4;
+    font-size: 16px;
+    color: hsl(167, 40%, 24%);
+    font-family: "Barlow";
+  }
+
+
+  .right-3 {
+    height: 70vh;
+    background-image: url("../images/mobile/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-y: hidden;
+  }
+
+  .right-3 .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    top: 20rem;
+
+  }
+
+  .right-3 h2 {
+    color: hsl(198, 62%, 26%);
+    font-family: "Fraunces";
+    margin-bottom: 2rem;
+    overflow-y: hidden;
+  }
+
+  .right-3 h5 {
+    letter-spacing: 1;
+    line-height: 1.4;
+    font-size: 16px;
+    color: hsl(198, 62%, 26%);
+    font-family: "Barlow";
+  }
+
+  /*end section three */
+
+
+  /* testimonials */
+
+  .name-container {
+    padding-bottom: 0;
+    padding-top: 2rem;
+  }
+
+  /* end of testimonials */
+
+
+
+
+  /* section four */
+
+
+  .section-four {
+    height: 50vh;
+
+  }
+
+  .pic-1 {
+    height: 25vh;
+    background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+
+  }
+
+  .pic-2 {
+    height: 25vh;
+    background-image: url("../images/desktop/image-gallery-orange.jpg");
+
+  }
+
+  .pic-3 {
+    height: 25vh;
+    background-image: url("../images/desktop/image-gallery-cone.jpg");
+
+  }
+
+  .pic-4 {
+    height: 25vh;
+    background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
+
+  }
+
+  /* end of section four */
+
+
+}
+
+/* End of responsive */
